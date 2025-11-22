@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant Disease Detector</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+    <div class="hero">
+        <div class="hero-content">
+            <h1>🌿 AI Plant Disease Detector</h1>
+            <p>Upload an image of a leaf and let AI diagnose plant diseases instantly.</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="upload-card">
+            <h2>Upload Leaf Image</h2>
+
+            <label class="upload-area" id="uploadArea">
+                <input type="file" id="imageInput" accept="image/*" hidden>
+                <span>📸 Click to choose image</span>
+            </label>
+
+            <img id="previewImage" class="preview" style="display:none;">
+
+            <button id="predictBtn" class="btn" disabled>🔍 Predict</button>
+
+            <div id="loading" class="loading" style="display:none;">
+                <div class="spinner"></div>
+                <p>Analyzing...</p>
+            </div>
+
+            <div id="resultCard" class="result-card" style="display:none;"></div>
+        </div>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
