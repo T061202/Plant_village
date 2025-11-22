@@ -18,3 +18,11 @@ __pycache__/
 # Large libs
 *.dll
 *.pyd
+.vs/
+tf_env/
+model/
+__pycache__/
+*.dll
+*.pyd
+*.db
+*.log
