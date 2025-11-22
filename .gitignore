@@ -1,0 +1,20 @@
+# Python environment
+tf_env/
+venv/
+.env/
+
+# Visual Studio, VSCode
+.vs/
+.vscode/
+*.db
+
+# TensorFlow model
+model/
+
+# Cache
+__pycache__/
+*.pyc
+
+# Large libs
+*.dll
+*.pyd
